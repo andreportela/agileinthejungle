@@ -1,6 +1,6 @@
 <h2 class="section-title"><%= @labels['about'] %></h2>
-<p itemprop="description">So you want to organize a conference? That's pretty awesome! But we know that you don't have time to create the website, since you have to worry about contacting sponsors, chossing the right place, buying airplane tickets for speakers and many other things.</p>
+<p itemprop="description">Para profissionais criativos e estudantes de tecnologia que querem se preparar para os desafios do mundo do trabalho no século XXI, Agile in the Jungle é um evento que foca em instigar a agilidade através de sessões interativas e muita troca de experiência. Diferente de outros eventos, o Agile in the Jungle foca especificamente na cultura ágil.</p>
 
-<p>That's why we created this project! <a href="https://github.com/braziljs/conf-boilerplate" target="_blank">Conf Boilerplate</a> is an iniciative of <a href="http://braziljs.org" target="_blank">BrazilJS Foundation</a> that provides a simple structure built on top of Docpad, a static generator in NodeJS, with all the things you need to create a event. We also provide a responsive template with i18n!</p>
+<p>É por isso que essa página está de pé! <a href="https://github.com/andreportela/agileinthejungle" target="_blank">Agile in the Jungle</a> é uma iniciativa de um grupo de whatsapp com insônia e usa uma estrutura simples de um outro projeto do github onde já tem um monte de coisas prontas!</p>
 
-<p>This is just a live demo, check our <a href="https://github.com/braziljs/conf-boilerplate" target="_blank">repository on Github</a> for more details =D</p>
+<p>Essa é apenas uma demonstração simplória, checa o código lá no <a href="https://github.com/andreportela/agileinthejungle" target="_blank">repositório</a> para ver como é fácil =D</p>
