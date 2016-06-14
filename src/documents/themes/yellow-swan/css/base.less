@@ -8,8 +8,33 @@
   width:960px;
   position:relative;
 }
+
+.wrapper-landing {
+  margin: 0 auto;
+  position:relative;
+}
+
+.paddingnav {
+  padding-left: 20px;
+  text-align: right;
+}
+
+a.nav-link, .texto {
+  color: rgb(170,212,145);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 .content {padding: 50px 0;}
 .content section {padding-top: 50px;}
+
+/* =============================================================================
+   PARALLAX EFFECT
+   ========================================================================== */
+.parallax-window {
+    min-height: 920px;
+    background: transparent;
+    margin-top: -10px;
+}
 
 /* =============================================================================
    BASIC STYLES
@@ -206,16 +231,20 @@ nav {
   font-size:14px;
 }
 .form textarea {height:300px;}
-.form .btn {float:right;}
+.form .btn {float:left;}
 
+/* =============================================================================
+   Custom Fonts
+   ========================================================================== */
 
+@font-face { font-family: Trebuchet MS; src: url('/font/trebuchet-ms.svg') format('svg'); }
 
 /* =============================================================================
    Media Queries
    ========================================================================== */
 
 @media only screen and (max-width : 1024px) {
-  .wrapper {
+  .wrapper, .wrapper-landing {
     width: 100%;
     padding: 0 20px;
     .box-sizing(border-box);
