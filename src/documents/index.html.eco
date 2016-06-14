@@ -1,13 +1,9 @@
 ---
 layout: default
 ---
-
-<% for section in @sections : %>
-  <!-- <%= section.toUpperCase() %> -->
-
-  <section class="<%= section %>" id="<%= section %>">
-    <%- @partial("section/#{section}.html.eco", @) %>
-  </section>
-
-  <!-- / <%= section.toUpperCase() %> -->
+<%  if @sections : %>
+<div class="parallax-window" style="text-align:center;" data-parallax="scroll" data-image-src="themes/yellow-swan/img/forest.jpg">
+  <h2 class="texto" style="position:absolute; display: inline-block; line-height: 875px; font-size=xx-large;">Some Text</h2>
+</div>
+<div class="parallax-window" data-parallax="scroll" data-image-src="themes/yellow-swan/img/elevator-speech.jpg" position="0px 0px"></div>
 <% end %>
