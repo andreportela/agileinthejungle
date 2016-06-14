@@ -7,14 +7,14 @@ module.exports = {
 
     // Conference info
     conf: {
-      //name: "Agile in the Jungle",
+      name: "Agile in the Jungle",
       description: "Na Selva, a agilidade faz a Diferença!",
-      //date: "23 e 24 de Setembro",
+      date: "23 e 24 de Setembro",
       // If your event is free, just comment this line
-      //price: "$100",
-      //venue: "Coco Bongo",
+      price: "$100",
+      venue: "Av. Dom Pedro I, 151 - Dom Pedro, 69040-690",
       address: "Av. Dom Pedro I, 151 - Dom Pedro, 69040-690",
-      //city: "Manaus",
+      city: "Manaus",
       state: "Amazonas"
     },
 
