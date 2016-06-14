@@ -1,0 +1,32 @@
+{
+  "name": "agileinthejungle",
+  "description": "Landing Page for Agile in the Jungle \\o/ The best (and only) agile event in amazon rainforest",
+  "main": "out/index.html",
+  "authors": [
+    "André Luiz do Canto Portela <portela.eng@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "agileinthejungle",
+    "agile",
+    "jungle",
+    "manaus",
+    "amazonas",
+    "brazil",
+    "scrum",
+    "kanban",
+    "lean"
+  ],
+  "homepage": "https://github.com/andreportela/agileinthejungle",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "parallax.js": "^1.4.2"
+  }
+}
